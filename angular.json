@@ -97,7 +97,13 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/rwd-app/",
+            "name": "LiHuei",
+            "email": "hccpaps40832@gmail.com",
+            "repo": "https://github.com/LiHuei/rwd-app.git"
+          }
         }
       }
     }
